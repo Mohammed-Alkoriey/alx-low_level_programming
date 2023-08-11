@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-char cNumbers;
-for (cNumbers = '0'; cNumbers <= '9'; cNumbers++)
+int cNumbers;
+for (cNumbers = 48; cNumbers <= 57; cNumbers++)
 {
 putchar(cNumbers);
 }

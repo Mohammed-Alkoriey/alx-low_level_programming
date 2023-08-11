@@ -22,7 +22,7 @@ continue;
 putchar(iFirst);
 putchar(iSecond);
 putchar(iThird);
-if (iFirst == 56 && iSecond == 57)
+if (iFirst == 55 && iSecond == 56 && iThird == 57)
 {
 continue;
 }

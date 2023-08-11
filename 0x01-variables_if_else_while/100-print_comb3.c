@@ -21,7 +21,7 @@ putchar(iFirst);
 putchar(iSecond);
 if (iFirst == 56 && iSecond == 57)
 {
-continue;  
+continue;
 }
 putchar(',');
 putchar(' ');

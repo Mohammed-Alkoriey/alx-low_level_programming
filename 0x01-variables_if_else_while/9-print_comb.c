@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - prints all single digit numbers and numbers must be separated by , followed by a space
+ *main - prints all single digit numbers and numbers must be separated by ", "
  *
  *Return: 0 success
  */

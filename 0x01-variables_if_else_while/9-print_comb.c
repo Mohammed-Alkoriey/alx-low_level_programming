@@ -11,12 +11,11 @@ int main(void)
 int cNumbers;
 for (cNumbers = 48; cNumbers <= 57; cNumbers++)
 {
+putchar(cNumbers);
 if (cNumbers == 57)
 {
-putchar(cNumbers);
 continue;
 }
-putchar(cNumbers);
 putchar(',');
 putchar(' ');
 }

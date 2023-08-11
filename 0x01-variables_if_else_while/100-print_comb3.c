@@ -19,9 +19,9 @@ continue;
 }
 putchar(iFirst);
 putchar(iSecond);
-if (iFirst == 8 && iSecond == 9)
+if (iFirst == 56 && iSecond == 57)
 {
-continue;
+continue;  
 }
 putchar(',');
 putchar(' ');

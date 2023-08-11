@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-  int iFirst, iSecond;
+int iFirst, iSecond;
 for (iFirst = 0; iFirst <= 99; iFirst++)
 {
 for (iSecond = iFirst + 1; iSecond <= 99; iSecond++)
@@ -17,11 +17,11 @@ if (iFirst == iSecond)
 {
 continue;
 }
- putchar((iFirst / 10) + 48);
- putchar((iFirst % 10) + 48);
- putchar(' ');
- putchar((iSecond / 10) + 48);
- putchar((iSecond % 10) + 48);
+putchar((iFirst / 10) + 48);
+putchar((iFirst % 10) + 48);
+putchar(' ');
+putchar((iSecond / 10) + 48);
+putchar((iSecond % 10) + 48);
 if (iFirst == 98 && iSecond == 99)
 {
 continue;

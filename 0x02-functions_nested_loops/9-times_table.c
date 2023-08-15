@@ -44,6 +44,7 @@ continue;
 else if (y == 0)
 {
 _putchar((iNumber % 10) + 48);
+_putchar(44)
 continue;
 }
 else if (iNumber % 9 == 0)

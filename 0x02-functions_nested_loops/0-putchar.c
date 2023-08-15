@@ -7,5 +7,11 @@
 
 int main(void)
 {
-_putchar("_putchar");
+char cWord[] = "_putchar";
+
+for(int i = 0; i < 8; i++)
+{
+_putchar(cWord[i]);
+}
+return (0);
 }

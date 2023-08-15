@@ -18,7 +18,8 @@ for (y = 0; y <= 9; y++)
 iNumber = x * y;
 if (iNumber == 81)
 {
-_putchar(iNumber + '0');
+_putchar((iNumber / 10) + 48);
+_putchar((iNumber % 10) + 48);
 continue;
 }
 else if (iNumber >= 9)
@@ -27,6 +28,7 @@ _putchar((iNumber / 10) + 48);
 }
 _putchar((iNumber % 10) + 48);
 _putchar(44);
+_putchar(32);
 _putchar(32);
 }
 _putchar(36);

@@ -13,51 +13,17 @@ int x, y, iNumber;
 
 for (x = 0; x <= 9; x++)
 {
+-putchar(48);
 for (y = 0; y <= 9; y++)
 {
+_putchar(44);
+_putchar(32);
 iNumber = x * y;
-if (iNumber == 81)
-{
+if (iNumber <= 9)
 _putchar(32);
-_putchar((iNumber / 10) + 48);
-_putchar((iNumber % 10) + 48);
-continue;
-}
-else if (iNumber > 9)
-{
-if (y == 9)
-{
-_putchar(32);
-_putchar((iNumber / 10) + 48);
-_putchar((iNumber % 10) + 48);
-continue;
-}
 else
-{
-_putchar(32);
 _putchar((iNumber / 10) + 48);
 _putchar((iNumber % 10) + 48);
-_putchar(44);
-continue;
-}
-}
-else if (y == 0)
-{
-_putchar((iNumber % 10) + 48);
-_putchar(44);
-continue;
-}
-else if (y == 9 && x != 9)
-{
-_putchar(32);
-_putchar(32);
-_putchar((iNumber % 10) + 48);
-continue;
-}
-_putchar(32);
-_putchar(32);
-_putchar((iNumber % 10) + 48);
-_putchar(44);
 }
 _putchar('\n');
 }

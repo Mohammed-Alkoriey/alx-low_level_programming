@@ -15,9 +15,9 @@ for (iHours = 00; iHours <= 24; iHours++)
 {
 for (iMinutes = 00; iMinutes < 60; iMinutes++)
 {
-_putchar(iHours);
+_putchar('0' + iHours);
 _putchar(58);
-_putchar(iMinutes);
+_putchar('0' + iMinutes);
 _putchar('\n');
 }
 }

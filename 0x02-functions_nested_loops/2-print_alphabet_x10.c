@@ -10,7 +10,7 @@
 void print_alphabet_x10(void)
 {
 int cChar,iTimes;
-for(iTimes = 0; itimes < 10; itimes++)
+for(iTimes = 0; iTimes < 10; itimes++)
 {
 for (cChar = 'a'; cChar <= 'z'; cChar++)
 {

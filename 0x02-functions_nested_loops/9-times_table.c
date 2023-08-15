@@ -18,10 +18,10 @@ for (y = 0; y <= 9; y++)
 iNumber = x * y;
 if (iNumber == 81)
 {
-_putchar(iNumber + 48);
+_putchar(iNumber + '0');
 continue;
 }
-_putchar(iNumber + 48);
+_putchar(iNumber + '0');
 _putchar(44);
 _putchar(32);
 }

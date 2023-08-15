@@ -5,8 +5,9 @@
  * Return: 0 on success
  */
 
+void print_alphabet(void);
 
-void print_alphabet(void)
+void print_alphabet()
 {
 int cChar;
 for (cChar = 'a'; cChar <= 'z'; cChar++)

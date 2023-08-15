@@ -11,13 +11,15 @@ void jack_bauer(void)
 {
 int iHours, iMinutes;
 
-for (iHours = 00; iHours <= 24; iHours++)
+for (iHours = 0; iHours < 24; iHours++)
 {
-for (iMinutes = 00; iMinutes < 60; iMinutes++)
+for (iMinutes = 0; iMinutes < 60; iMinutes++)
 {
-_putchar('0' + iHours);
+_putchar((iHours / 10) + 48);
+_putchar((iHours % 10) + 48);
 _putchar(58);
-_putchar('0' + iMinutes);
+_putchar((iMinutes / 10) + 48);
+_putchar((iMinutes % 10) + 48);
 _putchar('\n');
 }
 }

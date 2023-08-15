@@ -21,7 +21,11 @@ if (iNumber == 81)
 _putchar(iNumber + '0');
 continue;
 }
-_putchar(iNumber + '0');
+else if (iNumber >= 9)
+{
+_putchar((iNumber / 10) + 48);
+}
+_putchar((iNumber % 10) + 48);
 _putchar(44);
 _putchar(32);
 }

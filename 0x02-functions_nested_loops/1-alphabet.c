@@ -7,7 +7,7 @@
 
 
 
-void print_alphabet()
+void print_alphabet(void)
 {
 int cChar;
 for (cChar = 'a'; cChar <= 'z'; cChar++)

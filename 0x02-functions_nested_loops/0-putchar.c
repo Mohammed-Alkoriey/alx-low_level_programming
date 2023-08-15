@@ -13,5 +13,6 @@ for(i = 0; i < 8; i++)
 {
 _putchar(cWord[i]);
 }
+_putchar("\n");
 return (0);
 }

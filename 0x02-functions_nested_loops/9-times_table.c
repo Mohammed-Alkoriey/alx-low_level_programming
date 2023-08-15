@@ -52,7 +52,6 @@ else if (y == 9 && x != 9)
 _putchar(32);
 _putchar(32);
 _putchar((iNumber % 10) + 48);
-_putchar(44);
 continue;
 }
 _putchar(32);

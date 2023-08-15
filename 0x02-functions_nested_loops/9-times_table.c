@@ -25,26 +25,30 @@ continue;
 }
 else if (iNumber > 9)
 {
+if (iNumber % 9 == 0)
+{
+_putchar(32);
+_putchar((iNumber / 10) + 48);
+_putchar((iNumber % 10) + 48);
+continue;
+}
+else
+{
 _putchar(32);
 _putchar((iNumber / 10) + 48);
 _putchar((iNumber % 10) + 48);
 _putchar(44);
 continue;
 }
+}
 else if (y == 0)
 {
 _putchar((iNumber % 10) + 48);
 continue;
 }
-else if (y == 9)
+else if (iNumber % 9 = 0)
 {
-if (iNumber > 9)
-{
-_putchar(32);
-_putchar((iNumber / 10) + 48);
-_putchar((iNumber % 10) + 48);
-continue;
-}else if (iNumber <= 9)
+if (iNumber <= 9)
 {
 _putchar(32);
 _putchar(32);

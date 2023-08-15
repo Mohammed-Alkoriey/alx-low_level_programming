@@ -13,7 +13,7 @@ int iHours, iMinutes;
 
 for (iHours = 00; iHours <= 24; iHours++)
 {
-for (iMinutes = 00; iMinutes < 60; iMinuits++)
+for (iMinutes = 00; iMinutes < 60; iMinutes++)
 {
 _putchar(iHours);
 _putchar(58);

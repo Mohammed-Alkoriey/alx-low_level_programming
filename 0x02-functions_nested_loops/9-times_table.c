@@ -46,7 +46,7 @@ else if (y == 0)
 _putchar((iNumber % 10) + 48);
 continue;
 }
-else if (iNumber % 9 = 0)
+else if (iNumber % 9 == 0)
 {
 if (iNumber <= 9)
 {

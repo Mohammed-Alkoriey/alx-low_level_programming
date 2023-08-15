@@ -13,7 +13,6 @@ int x, y, iNumber;
 
 for (x = 0; x <= 9; x++)
 {
-_putchar(48);
 for (y = 0; y <= 9; y++)
 {
 _putchar(44);

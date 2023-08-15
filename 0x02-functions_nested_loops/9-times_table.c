@@ -24,14 +24,17 @@ continue;
 }
 else if (iNumber >= 9)
 {
+_putchar(32);
 _putchar((iNumber / 10) + 48);
-}
 _putchar((iNumber % 10) + 48);
 _putchar(44);
-_putchar(32);
-_putchar(32);
+continue;
 }
-_putchar(36);
+_putchar(32);
+_putchar(32);
+_putchar((iNumber % 10) + 48);
+_putchar(44);
+}
 _putchar('\n');
 }
 }

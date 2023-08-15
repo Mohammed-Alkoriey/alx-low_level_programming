@@ -13,7 +13,7 @@ void print_alphabet(void)
 char cChar;
 for (cChar = 'a'; cChar <= 'z'; cChar++)
 {
-_putchar(cAlphabet[cChar]);
+_putchar(cChar);
 }
 _putchar('\n');
 }

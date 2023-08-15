@@ -25,7 +25,7 @@ continue;
 }
 else if (iNumber > 9)
 {
-if (y == 0)
+if (y == 9)
 {
 _putchar(32);
 _putchar((iNumber / 10) + 48);

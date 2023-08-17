@@ -15,6 +15,6 @@ for (x = 0; x <= 14; x++)
 {
 _putchar('0' + x);
 }
-}
 _putchar('\n');
+}
 }

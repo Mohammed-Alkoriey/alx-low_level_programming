@@ -20,7 +20,7 @@ _putchar(92);
 _putchar('\n');
 for (i = 1; i < n; i++)
 {
-for (iTimes = 0; iTimes <= i;  iTimes++)
+for (iTimes = 0; iTimes < i;  iTimes++)
 {
 _putchar(' ');
 }

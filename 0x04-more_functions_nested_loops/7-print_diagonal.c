@@ -16,7 +16,9 @@ _putchar('\n');
 }
 else
 {
-for (i = 0; i < n; i++)
+_putchar('\\');
+_putchar('\n');
+for (i = 1; i < n; i++)
 {
 for (iTimes = 0; iTimes <= i;  iTimes++)
 {

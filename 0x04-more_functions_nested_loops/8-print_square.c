@@ -20,7 +20,7 @@ for (i = 1; i <= size; i++)
 {
 for (iTimes = 0; iTimes < size;  iTimes++)
 {
-_putchar(35);
+_putchar('#');
 }
 _putchar('\n');
 }

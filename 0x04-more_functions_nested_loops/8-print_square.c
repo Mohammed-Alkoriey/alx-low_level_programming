@@ -22,6 +22,7 @@ for (iTimes = 0; iTimes < size;  iTimes++)
 {
 _putchar('#');
 }
+_putchar('#');
 _putchar('\n');
 }
 }

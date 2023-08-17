@@ -16,9 +16,9 @@ _putchar('\n');
 }
 else
 {
-for (i = 1; i <= size; i++)
+for (i = 0; i < size; i++)
 {
-for (iTimes = 0; iTimes < size;  iTimes++)
+  for (iTimes = 0; iTimes < (size - 1);  iTimes++)
 {
 _putchar('#');
 }

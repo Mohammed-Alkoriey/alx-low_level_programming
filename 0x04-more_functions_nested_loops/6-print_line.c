@@ -15,11 +15,11 @@ for (i = 0; i < n; i++)
 if (i <= 0)
 {
 _putchar('\n');
-continue;
+break;
 }
 else
 {
-_putchar(95);
+_putchar('_');
 }
 }
 _putchar('\n');

@@ -18,11 +18,10 @@ else
 {
 for (i = 0; i < size; i++)
 {
-  for (iTimes = 0; iTimes < (size - 1);  iTimes++)
+for (iTimes = 1; iTimes <= size;  iTimes++)
 {
 _putchar('#');
 }
-_putchar('#');
 _putchar('\n');
 }
 }

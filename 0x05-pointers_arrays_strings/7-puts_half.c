@@ -16,6 +16,7 @@ while (str[i])
 {
 i++;
 }
+len = i;
 if (i % 2 != 0)
 {
 i = i - 1;

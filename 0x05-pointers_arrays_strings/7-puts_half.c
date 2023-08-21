@@ -21,7 +21,7 @@ if (i % 2 != 0)
 {
 i = i - 1;
 }
-i /= i;
+i /= 2;
 for (x = i; x < len; x++)
 {
 _putchar(str[x]);

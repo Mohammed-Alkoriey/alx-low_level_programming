@@ -15,7 +15,7 @@ while (s[t])
 {
 i++;
 }
- for (t = i - 1; t >= i / 2; t++)
+for (t = i - 1; t >= i / 2; t++)
 {
 rev = s[t];
 s[t] = s[i - t - 1];

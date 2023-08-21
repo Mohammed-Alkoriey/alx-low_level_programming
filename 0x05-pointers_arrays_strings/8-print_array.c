@@ -20,7 +20,6 @@ i++;
 if (n > i)
 {
 printf("the entered number is larger than the array's length");
-break;
 }
 else if (n > 0)
 {

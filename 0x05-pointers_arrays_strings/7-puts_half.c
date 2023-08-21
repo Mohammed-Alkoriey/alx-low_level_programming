@@ -1,5 +1,5 @@
 #include "main.h"
-
+1;4000;29c
 
 /**
  * puts_half - print the second half of the string
@@ -26,4 +26,5 @@ for (x = i; x < len; x++)
 {
 _putchar(str[x]);
 }
+_putchar('\n');
 }

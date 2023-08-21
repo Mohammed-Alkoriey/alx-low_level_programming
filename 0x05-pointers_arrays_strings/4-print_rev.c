@@ -16,9 +16,9 @@ for (i = 0; *s != '\0'; s++)
 {
 i++;
 }
-for (x = i; x > 0; x--)
+while(i++)
 {
-_putchar(s[x]);
+_putchar(s[i]);
 }
 _putchar('\n');
 }

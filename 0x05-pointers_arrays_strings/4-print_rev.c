@@ -17,6 +17,6 @@ for (i = 0; *s != '\0'; s++)
 }
 for (x = i-1; x < 0; x--)
 {
-_putchar(s[x]);
+_putchar(*s[x]);
 }
 }

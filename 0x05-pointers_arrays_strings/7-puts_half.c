@@ -19,7 +19,7 @@ i++;
 len = i;
 if (i % 2 != 0)
 {
-i = i - 1;
+i -= 3;
 }
 i /= 2;
 for (x = i; x < len; x++)

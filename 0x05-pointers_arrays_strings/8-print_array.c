@@ -28,7 +28,7 @@ printf("%d", a[0]);
 }
 for (x = 1; x < n; x++)
 {
-printf(", %d" ,a[x]);
+printf(", %d", a[x]);
 }
 printf("\n");
 }

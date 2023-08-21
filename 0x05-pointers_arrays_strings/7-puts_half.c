@@ -22,7 +22,7 @@ if (i % 2 != 0)
 i = i - 1;
 }
 i /= i;
-for (x = i; x >= len; x++)
+for (x = i; x < len; x++)
 {
 _putchar(str[x]);
 }

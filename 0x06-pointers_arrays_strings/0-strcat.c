@@ -14,7 +14,7 @@ int x, m;
 x = 0
 while (dest[x})
 x++;
-for (int m = 0; src[m]; m++)
+for (m = 0; src[m]; m++)
 {
 dest[x] = src[m];
 x++;

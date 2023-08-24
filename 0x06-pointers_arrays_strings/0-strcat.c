@@ -10,7 +10,10 @@
 char *_strcat(char *dest, char *src)
 {
 int x, m;
-x = sizeof(dest) / sizeof(*dest);
+
+x = 0
+while (dest[x})
+x++;
 for (int m = 0; src[m]; m++)
 {
 dest[x] = src[m];

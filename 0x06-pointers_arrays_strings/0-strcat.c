@@ -16,8 +16,7 @@ while (dest[x})
 x++;
 for (m = 0; src[m]; m++)
 {
-dest[x] = src[m];
-x++;
+dest[x++] = src[m];
 }
 return (dest);
 }

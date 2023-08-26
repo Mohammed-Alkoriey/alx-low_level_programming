@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strncat  - concatenates a string with a number of characters from the other string
+ * *_strncat - concatenates a number of characters to a string
  * @dest: the string that the source is gonna be appended to
  * @src: the source that's gonna be appended to the dest string
  * @n: the number of the characters

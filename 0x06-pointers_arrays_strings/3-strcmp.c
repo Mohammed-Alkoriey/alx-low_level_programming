@@ -18,6 +18,8 @@ while (s2[iLen2])
 {
 iLen2++;
 }
+iLen1--;
+iLen2--;
 if (iLen1 > iLen2)
 {
 iLen = iLen1;

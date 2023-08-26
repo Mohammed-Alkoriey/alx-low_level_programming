@@ -14,25 +14,7 @@ while (s1[iLen1])
 {
 iLen1++;
 }
-while (s2[iLen2])
-{
-iLen2++;
-}
-iLen1--;
-iLen2--;
-if (iLen1 > iLen2)
-{
-iLen = iLen1;
-}
-else if (iLen2 > iLen1)
-{
-iLen = iLen2;
-}
-else
-{
-iLen = iLen1;
-}
-for (i = 0; i < iLen; i++)
+for (i = 0; i < iLen1; i++)
 {
 if (s1[i] == s2[i])
 {

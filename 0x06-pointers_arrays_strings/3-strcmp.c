@@ -10,8 +10,14 @@
 int _strcmp(char *s1, char *s2)
 {
 int iResult = 0, iLen, iLen1, iLen2, i;
-iLen1 = sizeof(s1) / sizeof(*s1);
-iLen2 = sizeof(s2) / sizeof(*s2);
+while (s1[iLen1])
+{
+iLen1++;
+}
+while (s2[iLen2])
+{
+iLen2++;
+}
 if (iLen1 > iLen2)
 {
 iLen = iLen1;

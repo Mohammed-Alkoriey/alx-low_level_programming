@@ -17,9 +17,11 @@ x = 0;
 while (dest[x])
 x++;
 
-for (m = 0; m < n; m++)
+for (m = 0; m < n && src[m] != '\0'; m++)
 {
-dest[x++] = src[m];
+dest[x + m] = src[m];
 }
+dest[x + m] = '\0';
+
 return (dest);
 }

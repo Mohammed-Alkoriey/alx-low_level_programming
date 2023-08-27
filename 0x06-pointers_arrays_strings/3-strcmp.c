@@ -10,11 +10,11 @@
 int _strcmp(char *s1, char *s2)
 {
 int iResult = 0, iLen = 0, iLen1 = 0, iLen2 = 0, i;
-for (int t = 0; s1[t]; t++)
+while (s1[iLen1])
 {
 iLen1++;
 }
-for (int f = 0; s1[f]; f++)
+while (s2[iLen2])
 {
 iLen2++;
 }

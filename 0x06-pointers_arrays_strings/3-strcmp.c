@@ -9,12 +9,22 @@
 
 int _strcmp(char *s1, char *s2)
 {
-int iResult = 0, iLen1, i;
-while (s1[iLen1])
+int iResult = 0, iLen, iLen1, iLen2, i;
+iLen1 = sizeof(s1) / sizeof(*s1);
+iLen2 = sizeof(s2) / sizeof(*s2);
+if (iLen1 > iLen2)
 {
-iLen1++;
+iLen = iLen1;
 }
-for (i = 0; i < iLen1; i++)
+else if (iLen2 > iLen1)
+{
+iLen = iLen2;
+}
+else
+{
+iLen = iLen1;
+}
+for (i = 0; i < iLen; i++)
 {
 if (s1[i] == s2[i])
 {

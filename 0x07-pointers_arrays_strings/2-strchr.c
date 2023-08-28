@@ -10,26 +10,14 @@
 char *_strchr(char *s, char c)
 {
 unsigned int i = 0;
-int iFound = 0;
-while (s[i])
+while (s[i] >= '\0')
 {
 if (s[i] == c)
 {
-iFound = 1;
+return (s + i);
 break;
 }
-else
-{
-iFound = 0;
 i++;
 }
-}
-if (iFound == 1)
-{
-return (s + i);
-}
-else
-{
 return ('\0');
-}
 }

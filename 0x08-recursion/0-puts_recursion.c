@@ -15,7 +15,6 @@ printf("\n");
 else
 {
 printf("%c", *s);
-*s++;
 _puts_recursion(s);
 }
 }

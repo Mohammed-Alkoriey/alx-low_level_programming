@@ -1,16 +1,4 @@
 #include "main.h"
-
-/**
- * _sqrt_recursion - calls sqrt function
- * @n: is the number
- * Return: the square root of a number
- */
-
-int _sqrt_recursion(int n)
-{
-sqr(n, 1);
-}
-
 /**
  * sqr - a function to find the square root
  * @x: this is the number
@@ -34,4 +22,16 @@ else
 return (-1);
 }
 }
+}
+
+
+/**
+ * _sqrt_recursion - calls sqrt function
+ * @n: is the number
+ * Return: the square root of a number
+ */
+
+int _sqrt_recursion(int n)
+{
+sqr(n, 1);
 }

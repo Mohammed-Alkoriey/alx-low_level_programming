@@ -1,0 +1,44 @@
+#include "main.h"
+
+/**
+ * _strpbrk - searches a string for any of a set of bytes
+ * @s: the string
+ * @accept: the character that we're loking for
+ * Return: a pointer to the byte in s that matches one in accept
+ */
+
+char *_strstr(char *haystack, char *needle)
+{
+  int len = 0, i = 0, f, j = 0, l, i = 0;
+  char *p;
+  
+  while (needle[len] != '\0')
+    {
+      len++;
+    }
+  while (haystack[i] != '\0')
+    {
+      i++;
+    }
+  if (len == 0)
+    return (haystack);
+  while (haystack[j] != '\0')
+    {
+      if (haystack[j] == needle[0])
+	{
+	  p = &haystack[j];
+	  l = j;
+	  i = 0;
+	  for (f = 0; f < len; f++)
+	    {
+	      if (haystack[l] == needle[f])
+		i++;
+	      l++;
+	    }
+	}
+      if (i == len)
+	return (p);
+      j++;
+    }
+  return ('\0');
+}

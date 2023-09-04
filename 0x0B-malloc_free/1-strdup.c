@@ -25,7 +25,7 @@ return (NULL);
 }
 else
 {
-newStr = malloc(sizeof(char) * len);
+newStr = malloc(sizeof(char) * (len + 1));
 if (newStr == NULL)
 {
 return (NULL);

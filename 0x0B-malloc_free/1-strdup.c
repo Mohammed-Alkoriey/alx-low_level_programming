@@ -15,7 +15,6 @@ int i = 0, n = 0;
 char *newStr;
 if (str == NULL)
 {
-printf("failed to allocate memory\n");
 return (NULL);
 }
 else

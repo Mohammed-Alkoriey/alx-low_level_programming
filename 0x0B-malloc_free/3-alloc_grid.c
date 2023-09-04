@@ -22,6 +22,7 @@ else
 arr = malloc(sizeof(char) *  height);
 if (arr == NULL)
 {
+free(arr);
 return (NULL);
 }
 else
@@ -29,6 +30,11 @@ else
 while (i < height)
 {
 arr[i] = malloc(sizeof(char) *  width);
+if (arr[i] == NULL)
+{
+free(arr[i]);
+return (NULL);
+}
 while (x < width)
 {
 arr[i][x] = 0;
@@ -39,5 +45,4 @@ i++;
 }
 }
 return (arr);
-free(arr);
 }

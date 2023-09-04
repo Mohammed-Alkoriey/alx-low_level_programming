@@ -20,13 +20,6 @@ return (NULL);
 else
 {
 arr = malloc(sizeof(int*) *  height);
-if (arr == NULL)
-{
-free(arr);
-return (NULL);
-}
-else
-{
 while (i < height)
 {
 arr[i] = malloc(sizeof(int*) *  width);
@@ -48,7 +41,6 @@ arr[i][x] = 0;
 x++;
 }
 i++;
-}
 }
 }
 return (arr);

@@ -27,4 +27,5 @@ i++;
 }
 }
 return (arr);
+free(arr);
 }

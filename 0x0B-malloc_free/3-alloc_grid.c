@@ -35,12 +35,15 @@ if (arr[i] == NULL)
 free(arr[i]);
 return (NULL);
 }
+else
+{
 while (x < width)
 {
 arr[i][x] = 0;
 x++;
 }
 i++;
+}
 }
 }
 }

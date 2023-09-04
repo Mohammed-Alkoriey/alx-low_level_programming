@@ -32,7 +32,11 @@ while (i < height)
 arr[i] = malloc(sizeof(int) *  width);
 if (arr[i] == NULL)
 {
+while(i >= 0)
+{
 free(arr[i]);
+i--;
+}
 return (NULL);
 }
 else

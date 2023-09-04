@@ -30,10 +30,11 @@ while(i >= 0)
 free(arr[i]);
 i--;
 }
+free(arr);
 return (NULL);
 }
 }
- while (i < height)
+while (i < height)
 {
 while (x < width)
 {

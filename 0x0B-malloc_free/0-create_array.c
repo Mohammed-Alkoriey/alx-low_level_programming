@@ -20,10 +20,17 @@ return (NULL);
 else
 {
 arr = malloc(sizeof(char) * size);
+if (arr == NULL)
+{
+return (NULL);
+}
+else
+{
 while (i < len)
 {
 arr[i] = c;
 i++;
+}
 }
 }
 return (arr);

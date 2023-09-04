@@ -19,10 +19,10 @@ return (NULL);
 }
 else
 {
-arr = malloc(sizeof(int*) *  height);
+arr =(int **) malloc(sizeof(int*) *  height);
 while (i < height)
 {
-arr[i] = malloc(sizeof(int*) *  width);
+arr[i] =(int *) malloc(sizeof(int*) *  width);
 if (arr[i] == NULL)
 {
 while(i >= 0)

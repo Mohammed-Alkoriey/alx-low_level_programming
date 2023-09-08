@@ -23,7 +23,7 @@ while (s2[len2])
 len2++;
 if (n >= len2)
 n = len2;
-str = malloc(sizeof(char) * (len1 + len2 + 3));
+str = malloc(sizeof(char) * (len1 + n + 1));
 if (str == NULL)
 return (NULL);
 else

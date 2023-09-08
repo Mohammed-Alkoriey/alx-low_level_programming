@@ -32,12 +32,12 @@ for (i = 0; i < len1; i++)
 {
 str[i] = s1[i];
 }
-for (i = len1; i < (len1 + n); i++)
+for (x = 0; x < n; x++)
 {
 str[i] = s2[x];
-x++;
+i++;
 }
-str[len1 + len2] = '\0';
 }
+str[i] = '\0';
 return (str);
 }

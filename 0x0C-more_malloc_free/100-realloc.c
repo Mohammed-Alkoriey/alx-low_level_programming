@@ -19,7 +19,7 @@ if (ptr == NULL)
 arr = malloc(new_size);
 return (arr);
 }
-else if (ptr == NULL)
+else if (new_size == old_size)
 {
 return (ptr);
 }

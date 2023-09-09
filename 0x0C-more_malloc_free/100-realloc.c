@@ -14,14 +14,14 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 void *arr;
 unsigned int i;
-if (new_size == old_size)
-{
-return (ptr);
-}
-else if (ptr == NULL)
+if (ptr == NULL)
 {
 arr = malloc(new_size);
 return (arr);
+}
+else if (ptr == NULL)
+{
+return (ptr);
 }
 else if (new_size == 0 && ptr != NULL)
 {

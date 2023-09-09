@@ -41,8 +41,8 @@ for (i = 0; i < new_size; i++)
 {
 *((char *)arr + i) = *((char *)ptr + i);
 }
-}
-}
 return (arr);
 free(ptr);
+}
+}
 }

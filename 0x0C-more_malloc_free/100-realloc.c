@@ -45,4 +45,5 @@ free (ptr);
 return (arr);
 }
 }
+free(ptr);
 }

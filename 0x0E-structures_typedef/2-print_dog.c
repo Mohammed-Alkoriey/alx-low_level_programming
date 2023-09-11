@@ -6,19 +6,6 @@
  * @d: the dog structure
  * Return: nothing
  */
-void print_dog(struct dog *d);
-
-int main(void)
-{
-    struct dog my_dog;
-
-    my_dog.name = NULL;
-    my_dog.age = 3.5;
-    my_dog.owner = "Bob";
-    print_dog(&my_dog);
-    return (0);
-}
-
 void print_dog(struct dog *d)
 {
 if (d)

@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "dog.h"
 
 /**
@@ -6,6 +5,7 @@
  * @d: the dog structure
  * Return: nothing
  */
+
 void print_dog(struct dog *d)
 {
 if (d)

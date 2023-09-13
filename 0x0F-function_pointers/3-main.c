@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
 int (*func)(int, int);
 int firstNum, lastNum, result;
-if (&& argc == 4)
+if (argc == 4)
 {
 firstNum = atoi(argv[1]);
 lastNum = atoi(argv[3]);

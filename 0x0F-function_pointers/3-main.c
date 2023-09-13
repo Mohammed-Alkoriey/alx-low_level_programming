@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
 int (*func)(int, int);
 int firstNum, lastNum, result;
-if (argc != 0 && argc == 4)
+if (&& argc == 4)
 {
 firstNum = atoi(argv[1]);
 lastNum = atoi(argv[3]);
@@ -24,6 +24,9 @@ exit(99);
 
 result = func(firstNum, lastNum);
 printf("%d\n", result);
+return (0);
 }
+printf("Error\n");
+exit(98);
 return (0);
 }

@@ -1,4 +1,4 @@
-#include "variadic_functions.h"
+ #include "variadic_functions.h"
 
 
 /**
@@ -19,21 +19,20 @@ else
 unsigned int i = 0;
 va_list args;
 va_start(args, n);
-if (separator == NULL)
+if (separator == NULL || *separator == 0)
 {
 while (i < n)
 {
-vprintf("%d", args);
+printf("%d", va_arg(args, int));
 i++;
 }
 }
 else
 {
-vprintf("%d", args);
+printf("%d", va_arg(args, int));
 while (i < n - 1)
 {
-printf("%s", separator);
-vprintf("%d", args);
+printf("%s%d", separator, va_arg(args, int));
 i++;
 }
 }

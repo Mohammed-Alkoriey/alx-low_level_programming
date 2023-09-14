@@ -16,13 +16,13 @@ void print_all(const char * const format, ...)
 
 	va_start(args, format);
 	while (format && format[z])
-	{
 		z++;
-	}
 	while (format && format[x])
 	{
 		if (x  == (z - 1))
+		{
 			sep = "";
+		}
 		switch (format[x])
 		{
 		case 'c':

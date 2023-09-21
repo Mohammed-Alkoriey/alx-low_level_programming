@@ -20,7 +20,7 @@ int _strlen(char *s)
 
 
 /**
- * print_list - prints the gevin head's list
+ * print_list - prints the given head's list
  * @h: the head of the list
  * Return: number of nodes
  */

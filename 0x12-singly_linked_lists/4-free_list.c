@@ -10,17 +10,18 @@
 void free_list(list_t *head)
 {
 
-	list_t *curr;
+	list_t *curr, *curr2;
 
 	if (head == NULL)
 	{
 		return;
 	}
-
-	while (head)
+	curr = head;
+	while (curr)
 	{
-		curr = head->next;
-		free(head);
-		head = curr;
+		curr2 = curr->next;
+		free(curr->str);
+		free(curr);
+		curr = curr2;
 	}
 }

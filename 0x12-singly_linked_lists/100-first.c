@@ -1,6 +1,6 @@
 #include "lists.h"
 
-
+void print_str(void);
 /**
  * print_str - prints a string
  * Return: nothing

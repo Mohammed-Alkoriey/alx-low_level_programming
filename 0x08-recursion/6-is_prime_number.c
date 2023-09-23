@@ -12,7 +12,7 @@ int is_prime(int x, int z)
 		return (1);
 	else if (x % z == 0)
 		return (0);
-	return (prime2(x, z + 1));
+	return (is_prime(x, z + 1));
 }
 /**
  * is_prime_number - checks if a number is prime

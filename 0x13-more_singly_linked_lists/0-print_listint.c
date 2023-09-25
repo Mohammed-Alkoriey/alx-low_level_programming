@@ -1,10 +1,9 @@
 #include "lists.h"
-#include <stdio.h>
+
 
 /**
  * print_listint - function that prints all the elements of a list.
- * @h: the head of linked list.
- *
+ * @h: the head of linked list
  * Return: number of all the elements.
  */
 

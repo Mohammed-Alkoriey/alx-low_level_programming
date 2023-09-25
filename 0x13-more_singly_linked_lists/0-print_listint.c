@@ -14,7 +14,7 @@ size_t print_listint(const listint_t *h)
 	{
 		printf("(nil)");
 	}
-	while (h != NULL)
+	while(h != NULL)
 	{
 		printf("%d\n", h->n);
 		h = h->next;
@@ -22,4 +22,3 @@ size_t print_listint(const listint_t *h)
 	}
 	return (x);
 }
-

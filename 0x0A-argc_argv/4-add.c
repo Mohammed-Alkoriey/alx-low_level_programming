@@ -31,21 +31,21 @@ return (0);
 
 int main(int argc, char *argv[])
 {
-  int iAdd = 0,iNum;
-  if (argc == 1){
-    printf("%d\n", 0);
-  }else if(argc > 1){
-    for (int i = 0; i < argc; i++){
-      for (int x = 0; x < strlen(argv[i]); x++){
-	if(isdigit(argv[i + x]) == 0){
-	  printf("Error\n");
-	  return (1);
+	int iAdd = 0, i;
+	long unsigned int x;
+	if (argc == 1){
+		printf("%d\n", 0);
+	}else if(argc > 1){
+		for (i = 0; i < argc; i++){
+			for (x = 0; x < strlen(argv[i]); x++){
+				if(isdigit(argv[i + x]) == 0){
+					printf("Error\n");
+					return (1);
+				}
+			}
+			iAdd += atoi(argv[i]);
+		}
+		printf("%d\n", iAdd);
 	}
-      }
-      iAdd += atoi(argv[i]);
-    }
-    printf("%d\n", iAdd);
-  }
-  return (0);
+	return (0);
 }
-//1 - 10 - 100 - 100

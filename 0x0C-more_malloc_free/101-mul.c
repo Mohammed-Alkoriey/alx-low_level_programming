@@ -29,7 +29,6 @@ int main(int argc, char *argv[])
 {
 	int z;
 
-	malloc();
 	if (argc != 3)
 	{
 		printf("Error\n");

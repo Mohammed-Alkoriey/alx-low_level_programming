@@ -1,4 +1,4 @@
-extern printf
+/*extern printf
 section .data
 	msg: db "Hello, Holberton", 0
 	fmt: db "%s", 10, 0
@@ -15,3 +15,15 @@ main:
 	pop rbp
 	mov rax,0
 	ret
+	*/
+extern _printf
+global _main
+
+section .text
+_main :
+	push msg
+	call _printf
+	ret
+
+section .data
+msg : db "Hello, Holberton\n"

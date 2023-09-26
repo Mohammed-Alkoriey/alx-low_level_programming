@@ -2,14 +2,16 @@
 
 
 /**
- * list_len - prints the length of a  given head's list
- * @h: the head of the list
+ * add_node - add a new node
+ * @head: the head of the list
+ * @str: value
  * Return: number of nodes
  */
 
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *x = malloc(sizeof(list_t));
+
 	if (head == NULL || x == NULL)
 	{
 		return (NULL);

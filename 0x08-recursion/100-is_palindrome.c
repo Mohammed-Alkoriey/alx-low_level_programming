@@ -14,6 +14,10 @@ int is_palindrome(char *s)
 		x++;
 	}
 	x--;
+	if (x == 0)
+	{
+		return (1);
+	}
 	while (x > i)
 	{
 		if (s[i++] != s[x--])

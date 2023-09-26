@@ -14,7 +14,7 @@
 int main(int argc, char *argv[])
 {
 	int iAdd = 0, i;
-	unsigned long int x;
+	int x;
 
 	if (argc == 1)
 	{

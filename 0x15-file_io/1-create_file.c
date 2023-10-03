@@ -12,7 +12,7 @@ int create_file(const char *filename, char *text_content)
 	int fl;
 	ssize_t x = 0, len = strlen(text_content);
 
-	if (filename == NULL)
+	if (!filename)
 	{
 		return (-1);
 	}
